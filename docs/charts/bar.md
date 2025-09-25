@@ -4,7 +4,7 @@ A bar chart provides a way of showing data values represented as vertical bars. 
 
 ```js chart-editor
 // <block:setup:1>
-const labels = Utils.months({count: 7});
+const labels = Utils.dias({count: 7});
 const data = {
   labels: labels,
   datasets: [{
